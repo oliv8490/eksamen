@@ -1,0 +1,88 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+    
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: #333639;
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.nav-links a {
+    color: white;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: #0a5650;
+}
+@media only screen and (max-width: 768px) {
+    
+    nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    min-height: 7vh;
+}
+    .nav-links {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.nav-links a {
+    color: white;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #d9c6a3;
+}
+    
+}

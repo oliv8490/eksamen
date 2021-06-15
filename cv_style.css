@@ -1,0 +1,29 @@
+body {
+    background-color: #0a5650;
+}
+
+#cv{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#cv iframe {
+    border: 0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+@media only screen and (max-width: 768px) {
+    #CV {
+        padding: 30px;
+        width: 80%;
+        padding-bottom: 17vh;
+    }
+    
+    #cv iframe {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        width: 100%;
+    }
+}
